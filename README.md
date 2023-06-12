@@ -12,7 +12,7 @@
 - Tensorflow 2
 
 ## Training and testing the U-net model
-1. **First step is to generate the mask against annotated**: Run the 'unet_generate_masks.ipynb' notebook
+1. **First step is to generate the mask against annotated**: Run the `unet_generate_masks.ipynb` notebook
 
 2. **For training and testing the U-net model**: Run `train_unet_predictor.ipynb` notebook.
 
