@@ -12,15 +12,14 @@
 - Tensorflow 2
 
 ## Training and testing the U-net model
-For training and testing the U-net model, open the `train_unet_predictor.ipynb` notebook and run cells.
+1. **First step is to generate the mask against annotated**: Run the 'unet_generate_masks.ipynb' notebook
 
-4. **U-net model**
+2. **For training and testing the U-net model**: Run `train_unet_predictor.ipynb` notebook.
+
+3. **Predicting the landmarks**
 ```
-python unet_predict_image.py --dataset dataset/gray/test --model  models/ 
+python unet_predict_image.py --dataset dataset/gray --model  models/ 
 ```
-
-
-
 
 
 ## References:
